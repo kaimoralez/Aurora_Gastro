@@ -28,3 +28,41 @@ header{
     padding: 12px 30px;
     border-radius: 15px 3px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1{
+    font-size: var(--font-headline-h1-size);
+    font-family: var(--font-title);
+    width: 562px;
+}
+
+.highlighted-word{
+    color: var(--color-primary-orage);
+}
+
+.content-main p{
+    color: var(--color-secondary-gray);
+    font-size: var(--font-body-size);
+    font-family: --font-body-size;
+    line-height: 30px;
+    width: 544px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+    
+}
+

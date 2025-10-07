@@ -7,8 +7,8 @@
 
 :root{
     /* -- cores --  */
-   --color-primary-orage: #EA6D27;
-   --color-secondary-dark: #101821;
+    --color-primary-orage: #EA6D27;
+    --color-secondary-dark: #101821;
     --color-secondary-gray: #5C6574;
     --color-secondary-white: #FFFFFF;
     --color-tertiary-green: #004E05;
@@ -24,5 +24,21 @@
 
     --font-title:"David Libre", serif;
     --font-body: "Inter", sans-serif;
-
 }
+
+.btn-secondary, .btn-primary{
+    font-family: var(--font-title);
+    color: var(--color-secondary-white);
+    border-radius: 15px 3px;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+.btn-secondary{
+    background-color: var(--color-secondary-dark);
+}
+
+.btn-primary{
+    background-color: var(--color-primary-orage);
+}
+
