@@ -1,0 +1,30 @@
+@import url("./global.css");
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-header ul li a{
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    text-decoration: none;
+}
+
+.btn-header{
+    background-color: var(--color-primary-orage);
+    color: var(--color-secondary-white);
+    font-family: var(--font-title);
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 15px 3px;
+}
