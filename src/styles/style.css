@@ -34,6 +34,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 80px;
+    padding: 60px;
 }
 
 .content-main{
@@ -54,8 +55,8 @@ h1{
 
 .content-main p{
     color: var(--color-secondary-gray);
+    font-family: var(--font-body);
     font-size: var(--font-body-size);
-    font-family: --font-body-size;
     line-height: 30px;
     width: 544px;
 }
@@ -63,10 +64,9 @@ h1{
 .container-btn-main{
     display: flex;
     gap: 20px;
-    
 }
 
-                      /* ---------- Section 2 ------------ */
+                      /* ---------- Section 2 - Differences ------------ */
 .section-differences{
     background-color: var(--color-primary-orage-10);
     display: flex;
@@ -107,3 +107,34 @@ h1{
     line-height: 30px;
 }
 
+                /* ---------- Section 3 - Chef------------ */
+.section-chef{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+
+.content-chef{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content-chef h2{
+    line-height: 60px;
+    width: 433px;
+}
+
+.content-chef p{
+    font-family: var(--font-body);
+    color: var(--color-secondary-gray);
+    width: 503px;
+    line-height: 30px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 20px;
+}
