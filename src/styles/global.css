@@ -8,6 +8,7 @@
 :root{
     /* -- cores --  */
     --color-primary-orage: #EA6D27;
+    --color-primary-orage-10: rgba(234, 111, 39, 0.1);
     --color-secondary-dark: #101821;
     --color-secondary-gray: #5C6574;
     --color-secondary-white: #FFFFFF;
@@ -42,3 +43,7 @@
     background-color: var(--color-primary-orage);
 }
 
+h2{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+}

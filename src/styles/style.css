@@ -66,3 +66,44 @@ h1{
     
 }
 
+                      /* ---------- Section 2 ------------ */
+.section-differences{
+    background-color: var(--color-primary-orage-10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 40px;
+}
+
+.diffences-cards-container{
+    display: flex;
+    gap: 70px;
+}
+.diffences-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    gap:10px;
+    padding: 20px;
+    width: 257px;
+    height: 260px;
+    text-align: center;
+}
+
+.diffences-card h3{
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title) ;
+    width: 181px;
+}
+
+.diffences-card p{
+    font-size: var(--font-body-size);
+    font-family: var(--font-body);
+    width: 227px;
+    color: var(--color-secondary-gray);
+    line-height: 30px;
+}
+
