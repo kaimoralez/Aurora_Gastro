@@ -277,6 +277,7 @@ h1{
     width: 358px;
 }
 
+                                /* ---------- Section 6 - Reservation ------------ */
 
 .section-reservation{
     display: flex;
@@ -340,6 +341,9 @@ form button{
     cursor: pointer;
 }
 
+                                /* ---------- Section 7 - Our Reviews ------------ */
+
+
 .section-maps{
     display: flex;
     justify-content: center;
@@ -350,4 +354,78 @@ form button{
 .section-maps iframe{
     width: 90%;
     height: 60vh;
+}
+
+
+                                /* ---------- Section 8 - Our Reviews ------------ */
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.footer-copyright{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+
+}
+
+.footer-socials{
+    display: flex;
+    gap: 15px;
+}
+
+ .social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secondary-gray);
+    padding: 7px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.social-icons:hover{
+    background-color: var(--color-primary-orage);
+    transform: translateY(-10px);
+}
+
+                                /* ---------- Section 9 - Footer ------------ */
+.container-footer-navigation{
+    display: flex;
+    gap:80px;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-navigation h2{
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+}
+
+.footer-navigation ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.footer-navigation ul li a{
+    text-decoration: none;
+    color: var(--color-secondary-dark);
+    font-family: var(--font-body);
 }
