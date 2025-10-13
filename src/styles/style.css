@@ -139,7 +139,7 @@ h1{
     gap: 20px;
 }
 
-                                /* ---------- Section 4 - Chef------------ */
+                                /* ---------- Section 4 - Pratos em destaque------------ */
 .section-featured-dishes{
     display: flex;
     flex-direction: column;
@@ -338,4 +338,16 @@ form button{
     font-family: var(--font-title);
     align-self: flex-start;
     cursor: pointer;
+}
+
+.section-maps{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-orage-10);
+    padding: 60px 0px;
+}
+
+.section-maps iframe{
+    width: 90%;
+    height: 60vh;
 }
